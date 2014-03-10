@@ -27,13 +27,8 @@ Install by using Pip: `pip install markdown jinja2 elementtree`
 
 ### Play-by-play
 
-    $ mkdir m2d
-    $ cd m2d
-    $ git clone https://github.com/imakewebthings/deck.js.git
-    # Now setup your local webserver to serve the deck.js/introduction directory
-    $ git clone https://github.com/ulf/markdown2deckjs.git
     $ cd markdown2deckjs
-    $ ./m2d README.md templates/plain.html "Readme" > ../deck.js/introduction/readme.html
+    $ ./m2d README.md templates/plain.html "Readme" > ../introduction/readme.html
     # Look at the readme.html file in your browser. Done
 
 ## How do I create my slides?
@@ -50,7 +45,7 @@ Every time the markdown contains a H1 or H2 (#, ##), a new slide will be created
 
 will result in a three-slide presentation. Try it:
   
-    $ m2d example1.md templates/plain.html "My Test" > ../deck.js/example1.html
+    $ m2d example1.md templates/plain.html "My Test" > ../deck.js/introduction/example1.html
 
 
 ## Downloadable files
